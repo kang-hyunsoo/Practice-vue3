@@ -7,7 +7,7 @@
   <Conditional title="This is Conditional" />
   <Todo title="This is Todo list"></Todo>
   <Practice></Practice>
-  <HtmlClassBinding></HtmlClassBinding>
+  <ListRendering></ListRendering>
 </template>
 
 <script>
@@ -19,6 +19,7 @@ import Conditional from "./components/Conditional-rendering.vue"
 import Todo from "./components/Todo.vue";
 import Practice from './components/Practice.vue';
 import HtmlClassBinding from "./components/HtmlClassBinding.vue";
+import ListRendering from "./components/ListRendering.vue";
 
 export default {
   name: 'App',
@@ -30,7 +31,8 @@ export default {
     Conditional,
     Todo,
     Practice,
-    HtmlClassBinding
+    HtmlClassBinding,
+    ListRendering
   }
 }
 </script>
